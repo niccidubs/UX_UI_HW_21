@@ -1,0 +1,31 @@
+.navbar-nav {
+    padding-left: 75%
+}
+
+.jumbotron {
+    background-image: url(../images/knittinghome2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 0;
+}
+
+.display-4 {
+    color: white;
+    text-align: center;
+}
+
+.cardSet {
+    display: flex;
+    padding: 35px 5%;
+    justify-content: space-around;
+}
+
+.container {
+    padding-top: 60px;
+    background-color: floralwhite;
+}
+
+img {
+    
+}
