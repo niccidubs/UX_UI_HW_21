@@ -77,6 +77,12 @@ h2 {
 /*==== Media Query ====*/
 
 @media only screen and (max-width: 768px) {
+    /* .cardSet {
+        display: flex;
+        flex-direction: column;
+        padding: 35px 5%;
+        justify-content: space-around;
+    } */
 
 @media only screen and (max-width: 480px) {
 
@@ -85,6 +91,10 @@ h2 {
     flex-direction: column;
     padding: 35px 5%;
     justify-content: space-around;
+}
+
+.jumbotron {
+    height: 350px;
 }
 
 .card {
