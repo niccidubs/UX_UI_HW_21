@@ -1,13 +1,48 @@
-.navbar-nav {
-    padding-left: 75%
+/*==== Text ====*/
+html {
+    font-family: font-family: 'Poppins', sans-serif;
 }
 
+h1 {
+    font-family: 'Source Serif 4', sans-serif;
+}
+
+h2 {
+    font-family: 'Source Serif 4', sans-serif;
+    color: #6D8989;  
+}
+
+/*==== Navigation ====*/
+.navbar-nav {
+    /* padding-left: auto;
+    padding-right: 25%; */
+}
+
+.btn {
+    background-color: #6D8989;
+    color: white;
+    border: solid 1px white;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #6D8989;
+}
+
+/*==== Jumbotron ====*/
 .jumbotron {
     background-image: url(../images/knittinghome2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     border-radius: 0;
+    height: 680px;
+}
+
+.textBg {
+    background-color: #6D8989;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 .display-4 {
@@ -15,17 +50,46 @@
     text-align: center;
 }
 
+/*==== Cards ====*/
 .cardSet {
     display: flex;
     padding: 35px 5%;
     justify-content: space-around;
 }
 
-.container {
-    padding-top: 60px;
-    background-color: floralwhite;
+.card {
+    padding: 0px 8px;
+    border: 0;
 }
 
-img {
-    
+
+
+/*==== Footer ====*/
+
+.footer {
+    background-color: #6D8989 !important;
+}
+
+.text-muted {
+    color: white !important;
+}
+
+/*==== Media Query ====*/
+
+@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 480px) {
+
+.cardSet {
+    display: flex;
+    flex-direction: column;
+    padding: 35px 5%;
+    justify-content: space-around;
+}
+
+.card {
+    padding: 16px 0;
+    border: 0;
+}
+
 }
