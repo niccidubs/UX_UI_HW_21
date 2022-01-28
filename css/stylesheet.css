@@ -39,6 +39,15 @@ h2 {
     height: 680px;
 }
 
+.jumbotronHome {
+    background-image: url(../images/awuLogo.svg);
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 600px;
+    margin: 36px;
+}
+
 .textBg {
     background-color: #6D8989;
     padding-top: 2px;
