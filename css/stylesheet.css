@@ -48,6 +48,15 @@ h2 {
     margin: 36px;
 }
 
+.jumbotronPatterns {
+    background-image: url(../images/knitting-patterns.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 0;
+    height: 680px;  
+}
+
 .textBg {
     background-color: #6D8989;
     padding-top: 2px;
