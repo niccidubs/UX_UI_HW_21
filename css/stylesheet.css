@@ -1,22 +1,19 @@
 /*==== Text ====*/
 html {
-    font-family: font-family: 'Poppins', sans-serif;
+    font-family:'Poppins', sans-serif;
 }
 
 h1 {
     font-family: 'Source Serif 4', sans-serif;
 }
 
-h2 {
+h2, h3, h4 {
     font-family: 'Source Serif 4', sans-serif;
     color: #6D8989;  
 }
 
 /*==== Navigation ====*/
-.navbar-nav {
-    /* padding-left: auto;
-    padding-right: 25%; */
-}
+
 
 .btn {
     background-color: #6D8989;
@@ -29,6 +26,10 @@ h2 {
     color: #6D8989;
 }
 
+.inactive {
+    color: lightgrey;
+}
+
 /*==== Jumbotron ====*/
 .jumbotron {
     background-image: url(../images/knittinghome2.jpg);
@@ -36,17 +37,28 @@ h2 {
     background-repeat: no-repeat;
     background-position: center center;
     border-radius: 0;
-    height: 680px;
+    width: 100%;
+
+}
+
+.promo {
+    padding-top: 10%;
+    padding-left: 10%;
+}
+.promo, h1, h3 {
+    color: white;
 }
 
 .jumbotronHome {
-    background-image: url(../images/awuLogo.svg);
-    background-size:auto;
+    background-image: url(../images/hero-image.jpg);
+    background-size:COVER;
     background-repeat: no-repeat;
     background-position: center center;
     height: 600px;
     margin: 36px;
 }
+
+
 
 .jumbotronPatterns {
     background-image: url(../images/knitting-patterns.jpg);
@@ -80,6 +92,15 @@ h2 {
     border: 0;
 }
 
+.card-body {
+    text-align: center;
+}
+
+.content {
+    display: block;
+    padding: 35px 10%;
+}
+
 
 
 /*==== Footer ====*/
@@ -88,13 +109,18 @@ h2 {
     background-color: #6D8989 !important;
 }
 
+.container {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
 .text-muted {
     color: white !important;
 }
 
 /*==== Media Query ====*/
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) { */
     /* .cardSet {
         display: flex;
         flex-direction: column;
@@ -119,5 +145,4 @@ h2 {
     padding: 16px 0;
     border: 0;
 }
-
 }
